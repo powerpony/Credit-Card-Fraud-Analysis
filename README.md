@@ -5,6 +5,8 @@ This project analyzes credit card transaction data using SQL and pandas to ident
 Credit card fraud poses serious challenges for financial institutions, requiring robust, data-driven strategies to detect and prevent suspicious activity.
 The goal of this project is to explore transaction-level data to uncover meaningful insights that distinguish fraudulent from legitimate transactions.
 ## Dataset
+Due to file size limits, access the dataset from the link below:  
+Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 Source: Kaggle Credit Card Fraud Detection Dataset
 Rows: 284,807 transactions
 Class Labels: 1 = fraud, 0 = non-fraud
