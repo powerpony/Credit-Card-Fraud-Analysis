@@ -2,7 +2,7 @@
 ## Project Overview
 This project analyzes credit card transaction data using SQL and pandas to identify key fraud patterns, assess risk levels, and support fraud prevention strategies. The analysis aims to highlight when, where, and how fraudulent activity tends to occur for more informed risk segmentation and detection modeling.
 ## Problem Statement
-Credit card fraud poses serious challenges for financial institutions, requiring robust, data-driven strategies to detect and prevent suspicious activity.
+Credit card fraud poses serious challenges for many companies especially banks, requiring data-driven, accurate strategies to detect and prevent suspicious activity.
 The goal of this project is to explore transaction-level data to uncover meaningful insights that distinguish fraudulent from legitimate transactions.
 ## Dataset
 Due to file size limits, access the dataset from the link below:  
