@@ -6,31 +6,31 @@ Credit card fraud poses serious challenges for many companies especially banks, 
 The goal of this project is to explore transaction-level data to uncover meaningful insights that distinguish fraudulent from legitimate transactions.
 ## Dataset
 Due to file size limits, access the dataset from the link below:  
-Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-Source: Kaggle Credit Card Fraud Detection Dataset
-Rows: 284,807 transactions
-Class Labels: 1 = fraud, 0 = non-fraud
-Amount: Transaction value in euros
-Time: Seconds elapsed since the first transaction
+Link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud  
+Source: Kaggle Credit Card Fraud Detection Dataset  
+Rows: 284,807 transactions  
+Class Labels: 1 = fraud, 0 = non-fraud  
+Amount: Transaction value in euros  
+Time: Seconds elapsed since the first transaction  
 ## Tools & Skills Used
-SQL (SQLite) via pandas.read_sql
-pandas for analysis
-Python (Jupyter Notebook)
-Analytical Thinking & Feature Engineering
+1. SQL (SQLite) via pandas.read_sql
+2. pandas for analysis
+3. Python (Jupyter Notebook)
+4. Analytical Thinking & Feature Engineering
 ## Key Analyses Performed
-1. Risk Segmentation Analysis
+1. Risk Segmentation Analysis:  
 Created a custom risk score based on transaction amount and time of day
 Segmented transactions into: Minimal, Low, Medium, and High Risk
 Evaluated fraud rate, average amount, and total loss for each category
-2. Time-of-Day Fraud Patterns
+2. Time-of-Day Fraud Patterns:  
 Grouped transactions into 4-hour blocks (e.g., “Late Night”, “Morning”)
 Found that fraud rates are higher during late-night and early-morning hours
 Compared fraud volume and average transaction size across time blocks
-3. Transaction Value Bucketing
+3. Transaction Value Bucketing:  
 Binned transaction amounts into ranges (e.g. $0–25, $500–1000, $2000+)
 Measured fraud prevalence per range
 Found higher fraud concentration in $0–25 and $2000+ buckets
-4. Business Impact Summary
+4. Business Impact Summary:  
 Quantified overall fraud loss vs. high-value fraud loss
 Showed how a small portion of transactions contribute disproportionately to losses
 ## Key Insights
